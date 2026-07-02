@@ -15,7 +15,7 @@ import android.widget.TextView
 import java.time.LocalDate
 import kotlin.math.abs
 
-class PrettyActivity : Activity() {
+open class PrettyActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.statusBarColor = BgColor
